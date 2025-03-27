@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, #498ffe 0%, #d6e7ff 100%);
+    
+}
+
+#survey-form {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-group {
+    margin-bottom: 25px;
+    transition: transform 0.2s;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76,175,80,0.3);
+    outline: none;
+}
+
+#title {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+#description {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #498ffe;
+}

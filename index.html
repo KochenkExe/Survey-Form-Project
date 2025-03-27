@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey Form Project by Harun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.freepik.com/512/2666/2666505.png">
+</head>
+
+<body>
+    <h1 id="title">Survey Form Project by Harun</h1>
+    <p id="description">This is a survey form project created by me.</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="Joko" /></label>
+            <label id="email-label">Enter your Email: <input id="email" type="email" required
+                    placeholder="Joko@indonesia.go.id" /></label>
+            <label id="number-label">Enter your age: <input id="number" type="number" min="1" max="100" required
+                    placeholder="18" /></label>
+        </fieldset>
+        <fieldset>
+            <Legend>What is your current occupation?</legend>
+            <select id="dropdown">
+                <option value="0">(Select an option)</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Part Time Job</option>
+                <option value="4">Unemployed</option>
+                <option value="5">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Are you looking for a job?</legend>
+            <label><input type="radio" value="yes" name="job" /> Yes</label>
+            <label><input type="radio" value="no" name="job" /> No</label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you familiar with programming?</legend>
+            <label><input type="radio" value="yes" name="programming"  /> Yes</label>
+            <label><input type="radio" value="no" name="programming" /> No</label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose what programming language you understand</legend>
+            <label><input type="checkbox" value="HTML" /> HTML</label>
+            <label><input type="checkbox" value="CSS" /> CSS</label>
+            <label><input type="checkbox" value="JavaScript" /> JavaScript</label>
+            <label><input type="checkbox" value="Python" /> Python</label>
+            <label><input type="checkbox" value="Java" /> Java</label>
+            <label><input type="checkbox" value="C++" /> C++</label>
+            <label><input type="checkbox" value="C#" /> C#</label>
+            <label><input type="checkbox" value="PHP" /> PHP</label>
+            <label><input type="checkbox" value="Other" /> Other</label>
+        </fieldset>
+        <fieldset>
+            <legend>Tell me about yourself:</legend>
+            <textarea rows="5" cols="50" placeholder="I like to read a book while laying on the park grass under the shade of a tree..."></textarea>
+        </fieldset>
+        <input type="submit" id="submit" />
+    </form>
+</body>
+
+</html>
